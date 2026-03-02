@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+/db.sqlite3
+/staticfiles/
+/media/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# Node
+node_modules/
+
+# Others
+*.bak
+*.swp
+*.swo
+
+# Ignore test coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Ignore virtual environments
+venv/
+ENV/
+.envrc
+
+# Ignore pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore mypy
+.mypy_cache/
+.dmypy.json
+
+# Ignore pytest
+.pytest_cache/
+
+# Ignore build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore wheel
+*.whl
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore IDE
+.idea/
+
+# Ignore backup files
+*.bak
+
+# Ignore lock files
+Pipfile.lock
+poetry.lock
